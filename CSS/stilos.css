@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    height: 250px;
+    width: 100%;
+    color: 2px solid red;
+    background: #012D74;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.menu{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.menu img {
+     width: 150px;
+ }
+nav{
+    width: 400px;
+    border:white;
+    margin-left: 200px;
+}
+nav ul{
+    height: 100px;
+    List-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav a{
+   color: red;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    
+}
+nav li { 
+    margin-right: 20px;
+}
+.menuCarrito{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: flex-start;
+     
+}
+.menuCarrito a{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    text-decoration: none;  
+}
+.menuCarrito ul{
+    height: 100px;
+    List-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 200px;   
+}
+.menuCarrito li{
+    List-style:none;
+    margin-right: 20px; 
+}
+footer{
+    background: linear-gradient(blue, grey,black, brown);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.titulo{
+    text-align: center;
+    padding: 50px 10px;
+}
+.titulo p{
+    font-size: 18px;
+}
+.tituloMaps{
+    text-align: center;
+    padding: 50px 10px;
+}
